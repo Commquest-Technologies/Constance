@@ -1,0 +1,339 @@
+/* Root Variables */
+:root {
+    /* Colors */
+    --color-primary: #2563eb;
+    --color-primary-hover: #1d4ed8;
+    --color-text-heading: #0a0a0a;
+    --color-text-body: #171717;
+    --color-text-muted: #737373;
+    --color-background: #ffffff;
+    --color-background-muted: #f8f9fa;
+    --btn-primary: #2563eb; /* Added from usage */
+    --neutral: #ffffff; /* Added from usage */
+    --text-gray-700: #374151; /* Added from usage */
+    --gray-100: #f3f4f6; /* Added from usage */
+    
+    /* Typography */
+    --font-size-heading: 30px;
+    --font-size-subheading: 16px;
+    --font-size-body: 14px;
+    --font-size-small: 12px;
+    --text-base: 14px; /* Added from usage */
+    --text-xl: 20px; /* Added from usage */
+    --weight-medium: 500; /* Added from usage */
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --margin-sm: 0.5rem; /* Added from usage */
+    
+    /* Styling */
+    --border-radius-sm: 2px;
+    --border-radius: 4px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-focus: 0 0 0 1px rgba(37, 99, 235, 0.1);
+    
+    /* Layout */
+    --form-column-width: 800px;
+    --form-max-width: 550px;
+    --form-inner-width: 420px;
+    --input-height: 38px;
+    --button-height: 38px;
+    --transition: all 0.3s ease;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Layout adjustments */
+.toggle-full-width {
+    display: none !important;
+}
+
+.layout-main-section {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.frappe-control .form-column {
+    width: 100% !important;
+}
+
+/* Navbar styles */
+.navbar-light {
+    border-bottom: medium none !important;
+    background: white;
+    min-height: 60px !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar, .navbar-expand {
+    min-height: 60px !important;
+}
+
+.navbar-brand img {
+    max-height: 35px !important;
+}
+
+/* Page card styles */
+.page-card {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.page-card-head {
+    text-align: center;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    padding-bottom: 30px !important;
+}
+
+.page-card-head h4 {
+    margin-top: 1rem;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    letter-spacing: normal !important;
+    color: #0a0a0a !important;
+    text-shadow: 0px 3px 3px rgba(168, 168, 168, 1);
+}
+
+/* Login/Signup form container styles */
+.for-login .page-card,
+.for-forgot .page-card,
+.for-login-with-email-link .page-card,
+.for-signup .page-card,
+.for-email-login .page-card {
+    padding: 85px 10px !important;
+    background-color: #fff !important;
+    max-width: 520px !important;
+    margin: 0 auto;
+    border-radius: 1px !important;
+    border: medium none !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important;
+}
+
+/* Form styles */
+.for-login .page-card form,
+.for-forgot .page-card form,
+.for-login-with-email-link .page-card form,
+.for-signup .page-card form,
+.for-email-login .page-card form {
+    max-width: 360px !important;
+    margin: 0 auto;
+}
+
+.for-login .page-card form .form-group,
+.for-forgot .page-card form .form-group,
+.for-login-with-email-link .page-card form .form-group,
+.for-signup .page-card form .form-group,
+.for-email-login .page-card form .form-group {
+    margin-bottom: 30px !important;
+}
+
+/* Input field styles */
+.for-login .page-card .page-card-body input[type=text],
+.for-login .page-card .page-card-body input[type=email],
+.for-login .page-card .page-card-body input[type=password],
+.for-forgot .page-card .page-card-body input[type=text],
+.for-forgot .page-card .page-card-body input[type=email],
+.for-forgot .page-card .page-card-body input[type=password],
+.for-login-with-email-link .page-card .page-card-body input[type=text],
+.for-login-with-email-link .page-card .page-card-body input[type=email],
+.for-login-with-email-link .page-card .page-card-body input[type=password],
+.for-signup .page-card .page-card-body input[type=text],
+.for-signup .page-card .page-card-body input[type=email],
+.for-signup .page-card .page-card-body input[type=password],
+.for-email-login .page-card .page-card-body input[type=text],
+.for-email-login .page-card .page-card-body input[type=email],
+.for-email-login .page-card .page-card-body input[type=password] {
+    color: #171717;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    background-color: #ffffff !important;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d5db !important;
+    height: 38px !important;
+    border-radius: 1px !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    line-height: 1.5;
+    padding-left: 12px !important;
+}
+
+/* Input focus state */
+.for-login .page-card .page-card-body input[type=text]:focus,
+.for-login .page-card .page-card-body input[type=email]:focus,
+.for-login .page-card .page-card-body input[type=password]:focus,
+.for-forgot .page-card .page-card-body input[type=text]:focus,
+.for-forgot .page-card .page-card-body input[type=email]:focus,
+.for-forgot .page-card .page-card-body input[type=password]:focus,
+.for-login-with-email-link .page-card .page-card-body input[type=text]:focus,
+.for-login-with-email-link .page-card .page-card-body input[type=email]:focus,
+.for-login-with-email-link .page-card .page-card-body input[type=password]:focus,
+.for-signup .page-card .page-card-body input[type=text]:focus,
+.for-signup .page-card .page-card-body input[type=email]:focus,
+.for-signup .page-card .page-card-body input[type=password]:focus,
+.for-email-login .page-card .page-card-body input[type=text]:focus,
+.for-email-login .page-card .page-card-body input[type=email]:focus,
+.for-email-login .page-card .page-card-body input[type=password]:focus {
+    border: 1px solid #999999;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Input placeholder */
+input[type=text]::placeholder,
+input[type=email]::placeholder,
+input[type=password]::placeholder {
+    color: var(--color-text-muted);
+    opacity: 0.8; 
+}
+
+/* Field icons */
+.for-login .page-card .page-card-body .field-icon,
+.for-forgot .page-card .page-card-body .field-icon,
+.for-login-with-email-link .page-card .page-card-body .field-icon,
+.for-signup .page-card .page-card-body .field-icon,
+.for-email-login .page-card .page-card-body .field-icon {
+    display: none;
+    visibility: hidden;
+}
+
+/* Toggle password */
+.for-login .page-card .page-card-body .email-field .toggle-password,
+.for-login .page-card .page-card-body .password-field .toggle-password,
+.for-forgot .page-card .page-card-body .email-field .toggle-password,
+.for-forgot .page-card .page-card-body .password-field .toggle-password,
+.for-login-with-email-link .page-card .page-card-body .email-field .toggle-password,
+.for-login-with-email-link .page-card .page-card-body .password-field .toggle-password,
+.for-signup .page-card .page-card-body .email-field .toggle-password,
+.for-signup .page-card .page-card-body .password-field .toggle-password,
+.for-email-login .page-card .page-card-body .email-field .toggle-password,
+.for-email-login .page-card .page-card-body .password-field .toggle-password {
+    right: 9px;
+    top: 10px !important;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Button styles */
+.btn.btn-primary {
+    background-color: var(--btn-primary);
+    color: var(--neutral);
+    white-space: nowrap;
+    --icon-stroke: currentColor;
+    --icon-fill-bg: var(--btn-primary);
+    height: 38px;
+    border-radius: 1px;
+}
+
+.for-login .page-card .page-card-body .btn-login-option,
+.for-forgot .page-card .page-card-body .btn-login-option,
+.for-login-with-email-link .page-card .page-card-body .btn-login-option,
+.for-signup .page-card .page-card-body .btn-login-option,
+.for-email-login .page-card .page-card-body .btn-login-option {
+    font-size: var(--text-base);
+    font-weight: var(--weight-medium);
+    letter-spacing: normal;
+    color: var(--text-gray-700);
+    background: var(--gray-100);
+    box-shadow: none;
+    border: none;
+    display: flex;
+    place-content: center;
+    height: 38px;
+    border-radius: 1px;
+    padding-top: 0.5rem;
+}
+
+/* Footer styles */
+.web-footer {
+    padding: 3rem;
+    border-top: medium none !important;
+}
+
+.footer-logo {
+    height: 24px;
+}
+
+/* Icon styles */
+.icon-xs {
+    width: 13.5px;
+    height: 13.5px;
+}
+
+/* Search bar */
+.search-bar {
+    max-width: 680px;
+}
+
+.search-bar .awesomplete input {
+    background-color: #eee;
+    box-shadow: 0 0 0 1px #eee;
+    display: flex;
+    transition: all .1s ease-in-out;
+    height: 38px;
+    color: #111;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    body.full-width .container {
+        width: 98%;
+        max-width: 100%;
+    }
+}
+
+/* Sidebar Images */
+.form-sidebar .sidebar-image-section {
+    width: 100% !important;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: var(--border-radius-sm);
+}
+
+.form-sidebar .sidebar-image-section .sidebar-image {
+    height: auto;
+    max-height: 100%; 
+}
+
+.form-sidebar .sidebar-image-section .sidebar-image,
+.form-sidebar .sidebar-image-section .sidebar-standard-image {
+    transition: opacity 0.3s;
+    border-radius: var(--border-radius-sm);
+    border: medium none !important;
+}
+
+.form-sidebar .sidebar-image-section .standard-image {
+    border-radius: var(--border-radius-sm);
+}
+
+.user-profile-sidebar .sidebar-image {
+    border-radius: var(--border-radius-sm);
+}
+
+/* Background for login page */
+body[data-path="login"] {
+    background-image: url(/files/14-4k-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.page-actions .btn, .page-actions div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .page-actions button, .page-actions .btn .hidden-xs, .page-actions div#driver-popover-item .driver-popover-footer button .hidden-xs, div#driver-popover-item .driver-popover-footer .page-actions button .hidden-xs {
+    height: 38px;
+    border-radius: 1px;
+}

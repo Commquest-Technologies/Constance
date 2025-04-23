@@ -25,11 +25,11 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/constance/css/constance.css"
-# app_include_js = "/assets/constance/js/constance.js"
+app_include_css = "/assets/constance/css/constance.css"
+app_include_js = "/assets/constance/js/constance.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/constance/css/constance.css"
+web_include_css = "/assets/constance/css/constance.css"
 # web_include_js = "/assets/constance/js/constance.js"
 
 # include custom scss in every website theme (without file extension ".scss")
@@ -241,4 +241,5 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
 
