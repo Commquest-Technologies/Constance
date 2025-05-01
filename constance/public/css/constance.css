@@ -348,3 +348,41 @@ body[data-path="login"] {
 .page-actions .btn, .page-actions div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .page-actions button, .page-actions .btn .hidden-xs, .page-actions div#driver-popover-item .driver-popover-footer button .hidden-xs, div#driver-popover-item .driver-popover-footer .page-actions button .hidden-xs {
     gap: 8px;
 }
+
+.frappe-control[data-fieldtype=Select] .control-input .select-icon,
+.frappe-control[data-fieldtype=Select].form-group .select-icon {
+  top: 7px;
+}
+
+.frappe-control .action-btn, .frappe-control .link-btn {
+    position: absolute;
+    top: 5px;
+  }
+
+  .list-sidebar .list-sidebar-button {
+    height: 32px;
+    align-items: center;
+}
+
+.list-row-activity .modified {
+    text-transform: uppercase;
+}
+
+.list-row-activity .comment-count, .list-row-activity .list-row-like, .list-row-activity .mx-2  {
+    display: none;
+    visibility: hidden;
+}
+
+.list-liked-by-me {
+    display: none;
+    visibility: hidden;
+}
+
+.list-row-container .list-row-border {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+input[type=checkbox] {
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+}
