@@ -351,7 +351,7 @@ body[data-path="login"] {
 }
 
 .page-actions .btn:not(.icon-btn), .page-actions div#driver-popover-item .driver-popover-footer button:not(.icon-btn), div#driver-popover-item .driver-popover-footer .page-actions button:not(.icon-btn) {
-    padding: 4px 18px;
+    padding: 4px 20px;
   }
   .btn:not(.btn-md):not(.btn-lg), div#driver-popover-item .driver-popover-footer button:not(.btn-md):not(.btn-lg) {
     padding: 4px 16px;
@@ -409,4 +409,25 @@ input[type=checkbox] {
 
 .list-row-head span {
     font-weight: 600 !important;
+}
+
+[data-page-route=Workspaces] .standard-sidebar-item .item-anchor {
+    padding: 6px 0px 6px 8px;
+}
+.form-tabs-list .form-tabs .nav-item .nav-link {
+    padding: 12px 0;
+}
+
+.page-title .title-area .title-text {
+    font-size: var(--text-2xl) !important;
+    font-weight: var(--weight-semibold) !important;
+    letter-spacing: 0.02em;
+}
+
+.form-section .section-head, .form-dashboard-section .section-head {
+    font-size: var(--text-lg) !important;
+    font-weight: var(--weight-semibold) !important;
+    letter-spacing: 0.02em;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
 }
