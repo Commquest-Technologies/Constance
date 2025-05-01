@@ -344,3 +344,7 @@ body[data-path="login"] {
   .btn:not(.btn-md):not(.btn-lg), div#driver-popover-item .driver-popover-footer button:not(.btn-md):not(.btn-lg) {
     padding: 4px 16px;
 }
+
+.page-actions .btn, .page-actions div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .page-actions button, .page-actions .btn .hidden-xs, .page-actions div#driver-popover-item .driver-popover-footer button .hidden-xs, div#driver-popover-item .driver-popover-footer .page-actions button .hidden-xs {
+    gap: 8px;
+}
