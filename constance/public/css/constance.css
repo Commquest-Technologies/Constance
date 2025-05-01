@@ -440,3 +440,16 @@ input[type=checkbox] {
 .form-tabs-list .form-tabs .nav-item .nav-link {
     margin: 0 18px;
 }
+
+.frappe-control .unit-checkbox {
+    margin-bottom: var(--margin-md);
+}
+
+.awesomplete > [role=listbox] > li, .awesomplete > [role=listbox] > [role=option] {
+    padding: 9px;
+}
+
+.widget.links-widget-box .link-item {
+    padding: 5px;
+    margin-left: -5px;
+}
