@@ -334,6 +334,10 @@ body[data-path="login"] {
 }
 
 .page-actions .btn, .page-actions div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .page-actions button, .page-actions .btn .hidden-xs, .page-actions div#driver-popover-item .driver-popover-footer button .hidden-xs, div#driver-popover-item .driver-popover-footer .page-actions button .hidden-xs {
-    height: 38px;
+    height: 36px;
     border-radius: 1px;
 }
+
+.page-actions .btn:not(.icon-btn), .page-actions div#driver-popover-item .driver-popover-footer button:not(.icon-btn), div#driver-popover-item .driver-popover-footer .page-actions button:not(.icon-btn) {
+    padding: 4px 20px;
+  }
