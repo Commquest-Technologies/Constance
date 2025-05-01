@@ -56,6 +56,12 @@
         transform: translateY(0);
     }
 }
+html, body {
+    -webkit-font-smoothing: initial;
+    color: #0f0f0f;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
 
 /* Layout adjustments */
 .toggle-full-width {
