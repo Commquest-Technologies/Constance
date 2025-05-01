@@ -401,3 +401,12 @@ input[type=checkbox] {
 .level-item {
     font-weight: 400 !important;
 }
+
+.list-row-head {
+    height: 40px;
+    margin: 10px var(--padding-xs);
+}
+
+.list-row-head span {
+    font-weight: 600 !important;
+}
