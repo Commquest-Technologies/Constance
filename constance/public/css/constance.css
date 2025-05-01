@@ -431,3 +431,12 @@ input[type=checkbox] {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
 }
+
+.form-links .form-link-title {
+    margin-bottom: var(--margin-lg);
+    font-weight: var(--weight-semibold);
+}
+
+.form-tabs-list .form-tabs .nav-item .nav-link {
+    margin: 0 18px;
+}
