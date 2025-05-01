@@ -398,3 +398,6 @@ input[type=checkbox] {
     border: 1px solid var(--border-color);
     border-radius: 0;
 }
+.level-item {
+    font-weight: 400 !important;
+}
