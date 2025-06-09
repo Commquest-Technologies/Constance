@@ -127,7 +127,7 @@ html, body {
 .for-login-with-email-link .page-card,
 .for-signup .page-card,
 .for-email-login .page-card {
-    padding: 85px 10px !important;
+    padding: 100px 10px !important;
     background-color: #fff !important;
     max-width: 520px !important;
     margin: 0 auto;
