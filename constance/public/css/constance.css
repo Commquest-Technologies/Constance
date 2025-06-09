@@ -1,17 +1,18 @@
 /* Root Variables */
 :root {
     /* Colors */
-    --color-primary: #2563eb;
+    --color-primary: #262626;
     --color-primary-hover: #1d4ed8;
     --color-text-heading: #0a0a0a;
     --color-text-body: #171717;
     --color-text-muted: #737373;
     --color-background: #ffffff;
     --color-background-muted: #f8f9fa;
-    --btn-primary: #2563eb; /* Added from usage */
+    --btn-primary: #262626; /* Added from usage */
     --neutral: #ffffff; /* Added from usage */
     --text-gray-700: #374151; /* Added from usage */
     --gray-100: #f3f4f6; /* Added from usage */
+     --input-border-color: #c4c5c3;
     
     /* Typography */
     --font-size-heading: 30px;
@@ -132,7 +133,8 @@ html, body {
     margin: 0 auto;
     border-radius: 1px !important;
     border: medium none !important;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important;
+    box-shadow: none !important;
+/*     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important; */
 }
 
 /* Form styles */
@@ -395,7 +397,7 @@ body[data-path="login"] {
 }
 
 input[type=checkbox] {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--input-border-color);
     border-radius: 0;
 }
 .level-item {
