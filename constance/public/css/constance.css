@@ -455,3 +455,9 @@ input[type=checkbox] {
     padding: 5px;
     margin-left: -5px;
 }
+
+.like-disabled-input
+ {
+    padding: var(--input-padding) !important;
+    line-height: 1.6 !important;
+}
