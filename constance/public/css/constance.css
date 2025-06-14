@@ -456,8 +456,11 @@ input[type=checkbox] {
     margin-left: -5px;
 }
 
-.like-disabled-input
- {
+.like-disabled-input {
     padding: var(--input-padding) !important;
     line-height: 1.6 !important;
+}
+
+.small {
+    font-size: 12px;
 }
