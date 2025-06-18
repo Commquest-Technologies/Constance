@@ -373,7 +373,7 @@ body[data-path="login"] {
     top: 5px;
   }
 
-  .list-sidebar .list-sidebar-button {
+.list-sidebar .list-sidebar-button {
     height: 32px;
     align-items: center;
 }
@@ -407,6 +407,7 @@ input[type=checkbox] {
 .list-row-head {
     height: 40px;
     margin: 10px var(--padding-xs);
+    border-radius: var(--border-radius);
 }
 
 .list-row-head span {
