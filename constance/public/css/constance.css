@@ -122,6 +122,8 @@ html, body {
     font-weight: bold !important;
     letter-spacing: normal !important;
     color: #0a0a0a !important;
+    display: none !important;
+    visibility: hidden;
 /*     text-shadow: 0px 3px 3px rgba(168, 168, 168, 1); */
 }
 
@@ -484,7 +486,3 @@ p.small {
     border-radius: 50% !important;
  {
 
-.for-login .page-card-head h4 {
-    display: none !important;
-    visibility: hidden;
-}
