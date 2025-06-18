@@ -484,7 +484,7 @@ p.small {
     border-radius: 50% !important;
  {
 
-.page-card-head h4 {
+.for-login .page-card-head h4 {
     display: none !important;
     visibility: hidden;
 }
