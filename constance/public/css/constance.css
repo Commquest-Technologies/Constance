@@ -418,7 +418,8 @@ input[type=checkbox] {
     padding: 6px 0px 6px 8px;
 }
 .form-tabs-list .form-tabs .nav-item .nav-link {
-    padding: 12px 0;
+    padding: 14px 0;
+    font-size: 14px !important;
 }
 
 .page-title .title-area .title-text {
