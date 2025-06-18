@@ -484,7 +484,7 @@ p.small {
     border-radius: 50% !important;
  {
 
-.widget-title .ellipsis {
+.widget-title .ellipsis, .ellipsis {
     font-size: large !important;
     padding-bottom: 8px;
 }
