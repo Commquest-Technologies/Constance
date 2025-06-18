@@ -488,3 +488,8 @@ p.small {
     font-size: large !important;
     padding-bottom: 8px;
 }
+
+.modal .modal-header .modal-title {
+    font-weight: 700 !important;
+    font-size: large !important;
+}
