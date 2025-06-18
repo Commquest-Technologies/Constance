@@ -111,6 +111,10 @@ html, body {
     font-weight: 700;
     padding-bottom: 30px !important;
 }
+.page-head .page-head-content {
+    height: 72px;
+    padding: 12px 0;
+}
 
 .page-card-head h4 {
     margin-top: 1rem;
