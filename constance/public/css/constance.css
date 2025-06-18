@@ -398,11 +398,11 @@ body[data-path="login"] {
 
 input[type=checkbox] {
     border: 1px solid var(--input-border-color);
-    border-radius: 0;
+    border-radius: 3px;
 }
-/* .level-item {
-    font-weight: 400 !important;
-} */
+.level-item {
+    font-weight: 500 !important;
+}
 
 .list-row-head {
     height: 40px;
