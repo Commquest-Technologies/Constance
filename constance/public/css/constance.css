@@ -461,8 +461,8 @@ input[type=checkbox] {
     line-height: 1.6 !important;
 }
 
-.small {
-    font-size: 12px !important;
+p.small {
+    font-size: 12.5px !important;
 }
 
 .frappe-control[data-fieldtype=Select] .control-input .select-icon.xs, .frappe-control[data-fieldtype=Select].form-group .select-icon.xs {
