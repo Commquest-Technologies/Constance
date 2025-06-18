@@ -485,6 +485,6 @@ p.small {
  {
 
 .page-card-head h4 {
-    display: none;
+    display: none !important;
     visibility: hidden;
 }
