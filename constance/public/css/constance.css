@@ -483,13 +483,3 @@ p.small {
 .new-timeline .timeline-item .timeline-badge, .avatar-frame {
     border-radius: 50% !important;
  {
-
-.widget-title .ellipsis, .ellipsis {
-    font-size: large !important;
-    padding-bottom: 8px;
-}
-
-.modal .modal-header .modal-title {
-    font-weight: 700 !important;
-    font-size: large !important;
-}
