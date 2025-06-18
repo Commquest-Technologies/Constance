@@ -483,3 +483,8 @@ p.small {
 .new-timeline .timeline-item .timeline-badge, .avatar-frame {
     border-radius: 50% !important;
  {
+
+.widget-title .ellipsis {
+    font-size: large !important;
+    padding-bottom: 8px;
+}
