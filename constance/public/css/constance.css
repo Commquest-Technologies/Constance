@@ -32,7 +32,7 @@
     --margin-sm: 0.5rem; /* Added from usage */
     
     /* Styling */
-    --border-radius-sm: 2px;
+    --border-radius-sm: 4px;
     --border-radius: 4px;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-focus: 0 0 0 1px rgba(37, 99, 235, 0.1);
@@ -66,7 +66,7 @@ html, body {
 }
 
 * {
-    border-radius: 0 !important;
+/*  border-radius: 0 !important; */
     font-size: 0.925rem !important;
 }
 
@@ -118,7 +118,7 @@ html, body {
     font-weight: bold !important;
     letter-spacing: normal !important;
     color: #0a0a0a !important;
-    text-shadow: 0px 3px 3px rgba(168, 168, 168, 1);
+/*     text-shadow: 0px 3px 3px rgba(168, 168, 168, 1); */
 }
 
 /* Login/Signup form container styles */
@@ -131,7 +131,7 @@ html, body {
     background-color: #fff !important;
     max-width: 520px !important;
     margin: 0 auto;
-    border-radius: 1px !important;
+    border-radius: var(--border-radius-sm);
     border: medium none !important;
     box-shadow: none !important;
 /*     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important; */
@@ -179,7 +179,7 @@ html, body {
     margin-bottom: 1rem;
     border: 1px solid #d1d5db !important;
     height: 38px !important;
-    border-radius: 1px !important;
+    border-radius: var(--border-radius-sm);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     line-height: 1.5;
     padding-left: 12px !important;
@@ -201,8 +201,8 @@ html, body {
 .for-email-login .page-card .page-card-body input[type=text]:focus,
 .for-email-login .page-card .page-card-body input[type=email]:focus,
 .for-email-login .page-card .page-card-body input[type=password]:focus {
-    border: 1px solid #999999;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid #80bdff !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
 }
 
 /* Input placeholder */
@@ -251,7 +251,7 @@ input[type=password]::placeholder {
     --icon-stroke: currentColor;
     --icon-fill-bg: var(--btn-primary);
     height: 38px;
-    border-radius: 1px;
+    border-radius: var(--border-radius-sm);
 }
 
 .for-login .page-card .page-card-body .btn-login-option,
@@ -269,7 +269,7 @@ input[type=password]::placeholder {
     display: flex;
     place-content: center;
     height: 38px;
-    border-radius: 1px;
+    border-radius: var(--border-radius-sm);
     padding-top: 0.5rem;
 }
 
@@ -349,7 +349,7 @@ body[data-path="login"] {
 
 .page-actions .btn, .page-actions div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .page-actions button, .page-actions .btn .hidden-xs, .page-actions div#driver-popover-item .driver-popover-footer button .hidden-xs, div#driver-popover-item .driver-popover-footer .page-actions button .hidden-xs {
     height: 36px;
-    border-radius: 1px;
+    border-radius: var(--border-radius-sm);
 }
 
 .page-actions .btn:not(.icon-btn), .page-actions div#driver-popover-item .driver-popover-footer button:not(.icon-btn), div#driver-popover-item .driver-popover-footer .page-actions button:not(.icon-btn) {
@@ -462,5 +462,14 @@ input[type=checkbox] {
 }
 
 .small {
-    font-size: 12px;
+    font-size: 12px !important;
+}
+
+.frappe-control[data-fieldtype=Select] .control-input .select-icon.xs, .frappe-control[data-fieldtype=Select].form-group .select-icon.xs {
+    top: 8px;
+    right: 10px;
+}
+
+.frappe-control[data-fieldtype=Select] .control-input .placeholder.xs, .frappe-control[data-fieldtype=Select].form-group .placeholder.xs {
+    top: 10px;
 }
