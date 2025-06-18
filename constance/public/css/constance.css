@@ -202,7 +202,7 @@ html, body {
 .for-email-login .page-card .page-card-body input[type=email]:focus,
 .for-email-login .page-card .page-card-body input[type=password]:focus {
     border: 1px solid #80bdff !important;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
 }
 
 /* Input placeholder */
